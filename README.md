@@ -1,14 +1,11 @@
-# Scoop Bucket Template
+[![Build Status](https://ci.appveyor.com/api/projects/status/5h5om9pg8lj3sn8t?svg=true)](https://ci.appveyor.com/project/nikkoura/scoop-bucket "Build Status") [![Excavator](https://github.com/nikkoura/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/nikkoura/scoop-bucket/actions/workflows/excavator.yml)
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Build Status](https://ci.appveyor.com/api/projects/status/<appveyor-badge-id>?svg=true)](https://ci.appveyor.com/project/<username>/<bucketname> "Build Status") [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
-
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+Personnal bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add <bucketname> https://github.com/<username>/<bucketname>`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add <bucketname> https://github.com/nikkoura/scoop-bucket`. To install, do `scoop install <manifest>`.
 
 How do I contribute new manifests?
 ----------------------------------
@@ -16,9 +13,3 @@ How do I contribute new manifests?
 To make a new manifest conribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
 
 ----
-
-#### To use this template
-
-- Modify the Readme.md and the bin/auto-pr.ps1 files accordingly.
-- Enable GitHub Actions for this repository.
-- Login to AppVeyor and import this repository.
