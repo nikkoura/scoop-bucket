@@ -3,7 +3,8 @@
     "homepage": "https://miro.com",
     "description": "Online collaborative whiteboard",
     "license": {
-        "identifier": "Proprietary"
+        "identifier": "Proprietary",
+        "url": "https://miro.com/legal/terms-of-service/"
     },
     "architecture": {
         "64bit": {
