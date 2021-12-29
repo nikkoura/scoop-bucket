@@ -17,14 +17,14 @@
                 [
                     "vhui64.exe",
                     "virtualhere-client",
-                    "-c $dir\\vhui.ini"
+                    "-c $persist_dir\\vhui.ini"
                 ]
             ],
             "shortcuts": [
                 [
                     "vhui64.exe",
                     "VirtualHere Client",
-                    "-c $dir\\vhui.ini"
+                    "-c $persist_dir\\vhui.ini"
                 ]
             ]
         },
@@ -35,14 +35,14 @@
                 [
                     "vhui32.exe",
                     "virtualhere-client",
-                    "-c $dir\\vhui.ini"
+                    "-c $persist_dir\\vhui.ini"
                 ]
             ],
             "shortcuts": [
                 [
                     "vhui32.exe",
                     "VirtualHere Client",
-                    "-c $dir\\vhui.ini"
+                    "-c $persist_dir\\vhui.ini"
                 ]
             ]
         }
