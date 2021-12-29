@@ -1,5 +1,6 @@
 {
     "version": "5.2.7",
+    "description": "Use USB devices remotely over a network just as if they were locally connected",
     "homepage": "https://www.virtualhere.com/usb_client_software",
     "license": {
         "identifier": "Proprietary",
