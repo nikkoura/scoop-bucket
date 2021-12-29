@@ -1,9 +1,13 @@
 {
     "version": "4.3.5",
+    "description": "Share USB devices over a network for remote use by another computer",
     "homepage": "https://virtualhere.com/windows_server_software",
     "license": {
         "identifier" : "Proprietary",
         "url" : "https://www.virtualhere.com/windows_server_license"
+    },
+    "suggest": {
+        "Client": "nikkoura/virtualhere-client"
     },
     "architecture": {
         "64bit": {
