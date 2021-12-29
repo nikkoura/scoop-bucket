@@ -1,0 +1,36 @@
+{
+    "version": "0.7.1",
+    "homepage": "https://miro.com",
+    "description": "Online collaborative whiteboard",
+    "license": {
+        "identifier": "Proprietary"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://desktop.miro.com/platforms/win32/RealtimeBoard-0.7.1-full.nupkg#/dl.7z",
+            "hash": "sha1:363c672f00d8d6a2b88927dc25c2c50c62461ae5",
+            "extract_dir": "lib\\net45",
+            "shortcuts": [
+                [
+                    "Miro.exe",
+                    "Miro"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://desktop.miro.com/platforms/win32/RELEASES",
+        "regex": "RealtimeBoard-([\\d.]+)-full"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://desktop.miro.com/platforms/win32/RealtimeBoard-$version-full.nupkg",
+                "hash": {
+                    "url": "https://desktop.miro.com/platforms/win32/RELEASES",
+                    "regex": "($sha1) $basename"
+                }
+            }
+        }
+    }
+}

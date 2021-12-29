@@ -1,0 +1,61 @@
+{
+    "version": "5.2.7",
+    "homepage": "https://www.virtualhere.com/usb_client_software",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.virtualhere.com/client_license"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://virtualhere.com/sites/default/files/usbclient/vhui64.exe",
+            "hash": "b9680559142e47a1c331bc3756c2027cd2ee231558bcf710f5c0c4fe6570a536",
+            "bin": [
+                [
+                    "vhui64.exe",
+                    "virtualhere-client",
+                    "-c $dir\\vhui.ini"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "vhui64.exe",
+                    "VirtualHere Client",
+                    "-c $dir\\vhui.ini"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://virtualhere.com/sites/default/files/usbclient/vhui32.exe",
+            "hash": "0b3b0044677f14e71087bea8ef0378bc66d8203e7dc2649c0b4183f60b841896",
+            "bin": [
+                [
+                    "vhui32.exe",
+                    "virtualhere-client",
+                    "-c $dir\\vhui.ini"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "vhui32.exe",
+                    "VirtualHere Client",
+                    "-c $dir\\vhui.ini"
+                ]
+            ]
+        }
+    },
+    "pre_install": "$null = New-Item -Path $dir -Name vhui.ini -ItemType File",
+    "persist": "vhui.ini",
+    "checkver": {
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://virtualhere.com/sites/default/files/usbclient/vhui64.exe"
+            },
+            "32bit": {
+                "url": "https://virtualhere.com/sites/default/files/usbclient/vhui32.exe"
+            }
+        }
+    }
+}

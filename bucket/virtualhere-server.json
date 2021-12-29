@@ -1,0 +1,38 @@
+{
+    "version": "4.3.5",
+    "homepage": "https://virtualhere.com/windows_server_software",
+    "license": {
+        "identifier" : "Proprietary",
+        "url" : "https://www.virtualhere.com/windows_server_license"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://virtualhere.com/sites/default/files/usbserver/vhusbdwin64.exe",
+            "hash": "e142d3275e509f67555fc7df7a211164b34678ab6d2e6009c289887ba0efc947",
+            "bin": [
+                [
+                    "vhusbdwin64.exe",
+                    "virtualhere-server"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "vhusbdwin64.exe",
+                    "VirtualHere Server"
+                ]
+            ]
+        }
+    },
+    "pre_install" : "$null = New-Item -Path $dir -Name config.ini -ItemType File",
+    "persist" : ["config.ini"],
+    "checkver": {
+        "regex": "version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://virtualhere.com/sites/default/files/usbserver/vhusbdwin64.exe"
+            }
+        }
+    }
+}
