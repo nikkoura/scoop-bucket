@@ -1,22 +1,20 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Firmware flashing tool for ZSA keyboards (Moonlander, Ergodox EZ, Planck EZ)",
     "homepage": "https://www.zsa.io/wally/",
     "license": {
-        "identifier" : "MIT",
-        "url" : "https://github.com/zsa/wally/blob/master/license.md"
+        "identifier": "MIT",
+        "url": "https://github.com/zsa/wally/blob/master/license.md"
     },
-    "url": "https://github.com/zsa/wally-win/releases/download/3.0.0/Wally3.0.0.exe",
-    "hash": "d09a69f82de3c528a01c5691bfe56d0e89eea373b14ed2b9eb806c8fba776ecc",
+    "url": "https://github.com/zsa/wally-win/releases/download/3.0.1/Wally3.0.1.exe",
+    "hash": "daacfaf0f8db51afaed00f592119c6387d188762b3fe27640bcc825396546ab8",
     "innosetup": true,
     "bin": [
         [
             "wally-cli.exe",
             "wally"
         ],
-        [
-            "wally-cli.exe"
-        ]
+        "wally-cli.exe"
     ],
     "shortcuts": [
         [
