@@ -7,7 +7,7 @@
         "url": "https://clickup.com/terms"
     },
     "url": "https://github.com/clickup/clickup-release/releases/download/v2.0.23/clickup-desktop-2.0.23-windows.exe#dl.7z",
-    "hash": "",
+    "hash": "20df19a3cd3ff8ddd7d08f1c622cb30e013f95a9f89081917c8c32fd0de651c4",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
