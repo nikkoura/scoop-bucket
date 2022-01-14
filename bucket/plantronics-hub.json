@@ -22,7 +22,7 @@
     "persist": "Spokes.config",
     "checkver": {
         "url": "https://www.poly.com/us/en/support/knowledge-base/kb-article-page?lang=en_US&urlName=Hub-Release-Notes",
-        "regex": "Plantronics Hub v([\\d.]+) \\([\\d.]+"
+        "regex": "Plantronics Hub v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
