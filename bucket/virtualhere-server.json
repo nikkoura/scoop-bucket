@@ -1,10 +1,10 @@
 {
-    "version": "4.3.5",
+    "version": "4.3.6",
     "description": "Share USB devices over a network for remote use by another computer",
     "homepage": "https://virtualhere.com/windows_server_software",
     "license": {
-        "identifier" : "Proprietary",
-        "url" : "https://www.virtualhere.com/windows_server_license"
+        "identifier": "Proprietary",
+        "url": "https://www.virtualhere.com/windows_server_license"
     },
     "suggest": {
         "Client": "nikkoura/virtualhere-client"
@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://virtualhere.com/sites/default/files/usbserver/vhusbdwin64.exe",
-            "hash": "e142d3275e509f67555fc7df7a211164b34678ab6d2e6009c289887ba0efc947",
+            "hash": "9c180e71798571696acb3975f066028f5714d409d360167aceff67ea4fc1cf45",
             "bin": [
                 [
                     "vhusbdwin64.exe",
@@ -27,8 +27,8 @@
             ]
         }
     },
-    "pre_install" : "$null = New-Item -Path $dir -Name config.ini -ItemType File",
-    "persist" : ["config.ini"],
+    "pre_install": "$null = New-Item -Path $dir -Name config.ini -ItemType File",
+    "persist": "config.ini",
     "checkver": {
         "regex": "version ([\\d.]+)"
     },
