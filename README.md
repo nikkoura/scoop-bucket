@@ -2,12 +2,14 @@
 
 Personnal bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
-Feel free to use these manifests, but this bucket is mainly used as a staging area before contributing to the main bucket, or for personnal tools.
+Feel free to use these manifests, but please note that this bucket is mainly used as a staging area before contributing to the main bucket, or for personnal tools.
+
 
 How do I install these manifests?
 ---------------------------------
 
 To add this bucket, run `scoop bucket add <bucketname> https://github.com/nikkoura/scoop-bucket`. To install, do `scoop install <manifest>`.
+
 
 How do I contribute new manifests?
 ----------------------------------
