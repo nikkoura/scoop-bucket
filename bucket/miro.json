@@ -1,5 +1,5 @@
 {
-    "version": "0.7.1",
+    "version": "0.7.2",
     "homepage": "https://miro.com",
     "description": "Online collaborative whiteboard",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://desktop.miro.com/platforms/win32/RealtimeBoard-0.7.1-full.nupkg#/dl.7z",
-            "hash": "sha1:363c672f00d8d6a2b88927dc25c2c50c62461ae5",
+            "url": "https://desktop.miro.com/platforms/win32/RealtimeBoard-0.7.2-full.nupkg",
+            "hash": "sha1:9fd0367994e6fe66a49196c607aa7e8f468c05da",
             "extract_dir": "lib\\net45",
             "shortcuts": [
                 [
