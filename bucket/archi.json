@@ -8,7 +8,7 @@
     "url": "https://www.archimatetool.com/downloads/archi/4.9.2/Archi-4.9.2-SUMSSHA1",
     "hash": "589916768fcf0a8691f3284ed36afccafebe6c1f7ae1172178595861dea442ef",
     "depends": "busybox",
-    "pre_install": "busybox.exe wget -O $dir\\Archi-Win64-$version.zip --post-data \"free-tibet=$version%2FArchi-Win64-$version.zip\" https://www.archimatetool.com/downloads/archi/",
+    "pre_install": "(Invoke-WebRequest -UseBasicParsing -Uri 'https://www.archimatetool.com/js/global.js').Content -match 'attr\\(\"name\", \"(?<DownloadKey>.+)\"' ; $DownloadKey=$Matches.DownloadKey ; busybox.exe wget -O $dir\\Archi-Win64-$version.zip --post-data \"$DownloadKey=$version%2FArchi-Win64-$version.zip\" https://www.archimatetool.com/downloads/archi/",
     "installer": {
         "script": "7z.exe x -bd -o\"$dir\\\" $dir\\Archi-Win64-$version.zip"
     },
