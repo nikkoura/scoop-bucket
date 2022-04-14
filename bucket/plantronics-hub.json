@@ -21,7 +21,7 @@
     },
     "persist": "Spokes.config",
     "checkver": {
-        "url": "https://www.poly.com/us/en/support/knowledge-base/kb-article-page?lang=en_US&urlName=Hub-Release-Notes",
+        "url": "http://webcache.googleusercontent.com/search?q=cache:https://support.poly.com/support/s/article/Hub-Release-Notes&strip=1&vwsrc=0",
         "regex": "Plantronics Hub v([\\d.]+)"
     },
     "autoupdate": {
