@@ -1,5 +1,5 @@
 {
-    "version": "1.3.1",
+    "version": "1.4.0",
     "description": "The Open Source CPAP Analysis Reporter",
     "homepage": "https://www.sleepfiles.com/OSCAR/",
     "license": {
@@ -7,12 +7,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.apneaboard.com/OSCAR/OSCAR-1.3.1-Win64.exe",
-            "hash": "8f393f30c051b320e725f25efebb31d59f0ed3b0f35ee02bb480658cf3df9a75"
+            "url": "https://www.apneaboard.com/OSCAR/OSCAR-1.4.0-Win64.exe",
+            "hash": "169497c717fdc50c9a541e8c407af33e61f34a379d184c61c3483815bab8cbec"
         },
         "32bit": {
-            "url": "https://www.apneaboard.com/OSCAR/OSCAR-1.3.1-Win32.exe",
-            "hash": "e6ccd57729521b3452cac6f10584dadeb29b9af2f9d2a178897530f2a8dac370"
+            "url": "https://www.apneaboard.com/OSCAR/OSCAR-1.4.0-Win32.exe",
+            "hash": "d8998239b5fbcc1e9a5a53cb6116368ad760f50c25ecc332196395772e038a98"
         }
     },
     "innosetup": true,
