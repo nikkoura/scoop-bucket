@@ -1,12 +1,12 @@
 {
-    "version": "1.31.0",
+    "version": "1.32.0",
     "description": "Cross-platform mind mapping tool",
     "homepage": "https://simplemind.eu",
     "license": {
         "identifier": "Proprietary"
     },
-    "url": "https://simpleapps.eu/simplemind/SMP1_PZvgnDW8wg5Mc5XXQQq/SimpleMindPro1310b6112Setup.exe",
-    "hash": "27e09f0a378042c61bed90e786eb31e88ed323bef1479bcef00e98b2ff4b4029",
+    "url": "https://simpleapps.eu/simplemind/SMP1_PZvgnDW8wg5Mc5XXQQq/SimpleMindPro1320b6226Setup.exe",
+    "hash": "5a8b2f9e5a64664499bccf7d967116cb8c11aaeb314406eb871a7143ffa6afc8",
     "innosetup": true,
     "shortcuts": [
         [
