@@ -1,5 +1,5 @@
 {
-    "version": "3.24.2",
+    "version": "3.25.0",
     "description": "Configure, update and monitor your Plantronics handset",
     "homepage": "https://www.poly.com/us/en/support/downloads-apps/hub-desktop",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller_x64.msi",
-            "hash": "7119db42a7fc4f681a3ee348abc900be359ba9d85bc32ce590400907bb47e548",
+            "hash": "285580ba9e238b3fa677cd72e27823531d881b07294eff51b7fa15d90981c2d7",
             "extract_dir": "Plantronics/Spokes3G",
             "shortcuts": [
                 [
