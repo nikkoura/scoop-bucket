@@ -1,5 +1,5 @@
 {
-    "version": "4.5.5",
+    "version": "4.5.6",
     "description": "Share USB devices over a network for remote use by another computer",
     "homepage": "https://virtualhere.com/windows_server_software",
     "license": {
@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://virtualhere.com/sites/default/files/usbserver/vhusbdwin64.exe",
-            "hash": "bb771451d408629bcdc40660c37cdf831a2cf24ca2c72491843870808fa27cc9",
+            "hash": "b38d2edbdcf692b0b3e075de4a8ff2c2a2c3e1035fff25c944390f2aab63fc19",
             "bin": [
                 [
                     "vhusbdwin64.exe",
