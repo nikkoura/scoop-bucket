@@ -1,5 +1,5 @@
 {
-    "version": "5.5.2",
+    "version": "5.5.4",
     "description": "Use USB devices remotely over a network just as if they were locally connected",
     "homepage": "https://www.virtualhere.com/usb_client_software",
     "license": {
@@ -11,8 +11,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://virtualhere.com/sites/default/files/usbclient/vhui64.exe",
-            "hash": "7e445f20d92627a589fd06a2e761c0279a8d95b2dea3886cdde39042d4d0382e",
+            "url": "https://www.virtualhere.com/sites/default/files/usbclient/vhui64.exe",
+            "hash": "ef03e48cbc6e1ef2e4d89eb5a44e13bfda12c12254b4c1aaa3866b1600e931e3",
             "bin": [
                 [
                     "vhui64.exe",
@@ -23,24 +23,6 @@
             "shortcuts": [
                 [
                     "vhui64.exe",
-                    "VirtualHere Client",
-                    "-c $persist_dir\\vhui.ini"
-                ]
-            ]
-        },
-        "32bit": {
-            "url": "https://virtualhere.com/sites/default/files/usbclient/vhui32.exe",
-            "hash": "b426eeabdaee09f2358f3a6e299d96e28e6f4ecd422912083703f20855aa1905",
-            "bin": [
-                [
-                    "vhui32.exe",
-                    "virtualhere-client",
-                    "-c $persist_dir\\vhui.ini"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "vhui32.exe",
                     "VirtualHere Client",
                     "-c $persist_dir\\vhui.ini"
                 ]
@@ -55,10 +37,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://virtualhere.com/sites/default/files/usbclient/vhui64.exe"
-            },
-            "32bit": {
-                "url": "https://virtualhere.com/sites/default/files/usbclient/vhui32.exe"
+                "url": "https://www.virtualhere.com/sites/default/files/usbclient/vhui64.exe"
             }
         }
     }
