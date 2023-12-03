@@ -1,12 +1,12 @@
 {
-    "version": "5.1.0",
+    "version": "5.2.0",
     "homepage": "https://www.archimatetool.com",
     "description": "The Open Source modelling toolkit for creating ArchiMate models and sketches",
     "license": {
         "identifier": "MIT"
     },
-    "url": "https://www.archimatetool.com/downloads/archi5.php?/5.1.0/Archi-Win64-5.1.0.zip",
-    "hash": "07b36ff3b33f1be1732b2af12bae7500366723b8f8f9c2cefbe26daa78e57390",
+    "url": "https://www.archimatetool.com/downloads/archi-5.php?/5.2.0/Archi-Win64-5.2.0.zip",
+    "hash": "7c3e6286d7131626037dc11ebe3c2643724cd2ba1e869b2394e28c64780686f0",
     "extract_dir": "Archi",
     "shortcuts": [
         [
@@ -19,6 +19,6 @@
         "regex": "/downloads/archi/([\\d.]+)/Archi-"
     },
     "autoupdate": {
-        "url": "https://www.archimatetool.com/downloads/archi5.php?/$version/Archi-Win64-$version.zip"
+        "url": "https://www.archimatetool.com/downloads/archi-5.php?/$version/Archi-Win64-$version.zip"
     }
 }
