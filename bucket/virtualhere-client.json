@@ -1,5 +1,5 @@
 {
-    "version": "5.8.8",
+    "version": "5.8.9",
     "description": "Use USB devices remotely over a network just as if they were locally connected",
     "homepage": "https://www.virtualhere.com/usb_client_software",
     "license": {
@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.virtualhere.com/sites/default/files/usbclient/vhui64.exe",
-            "hash": "791234dbf204c63c6d81b9f0858190f82e42850a91d706b5eb089ef5e860b505",
+            "hash": "ef883df9f44c5c0c2f5b7c818e7c082e823492740794dc4eaf544ade147b6dbc",
             "bin": [
                 [
                     "vhui64.exe",
